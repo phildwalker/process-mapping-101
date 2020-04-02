@@ -1,3 +1,8 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
 # Literature
 
 Here is a review of existing methods.
@@ -8,3 +13,7 @@ Process Mining >> [http://processmining.org/]
 ProM >> [http://www.promtools.org/doku.php]
 
 Coursera process mining >> [https://www.coursera.org/learn/process-mining]
+
+
+The book used heavily for reference: 
+[![alt text](./_images/process-mining-book.JPG)](https://www.amazon.com/Process-Mining-Data-Science-Action-ebook/dp/B01EUYVU6Y/ref=sr_1_2?dchild=1&keywords=process+mining&qid=1585838236&sr=8-2)
