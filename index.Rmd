@@ -3,7 +3,10 @@ title: "Process Mining 101"
 author: "Phil Walker"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-output: bookdown::gitbook
+output: 
+  # bookdown::gitbook
+  bookdown::html_book:
+      theme:  united
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
