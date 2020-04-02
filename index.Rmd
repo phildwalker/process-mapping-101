@@ -36,7 +36,7 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: rstudio/bookdown-demo
+github-repo: phildwalker/process-mapping-101
 description: "This book aims to document what I've been learning about process mining/ process mapping and then be a place to share with others"
 ---
 
@@ -46,10 +46,14 @@ This book aims to document what I've been learning about process mining/ process
 
 There are different tools available, but the one we will largely focus on exists within the R ecosystem. It is called bupaR (Business Process Analysis in R) and the documentation site for that package and the rest of the '-verse' can be found at [http://bupar.net/]
 
+
 ## Disclaimers
-I am not a process mining 
+
+I am not a process mining expert or a researching, in fact I am still very new as a user of process mining methodologies. I do find this fun and I am always looking to grow and learn new things so I expect this book to grow with my understanding.
+
 
 ## What this book is
+
 
 
 ## What this book is not
@@ -62,6 +66,7 @@ Please feel free to reach out to me if you have any questions or have found and 
 My contact information can be found at the top right of the document and I can be reached via twitter, linkedin
 
 Best,
+
 -phil
 
 ```{r include=FALSE}
