@@ -1,7 +1,25 @@
 # Introduction {#intro}
 
-So what is process mining? 
+In this section I am aiming to cover the following items
 
-What can we do with it? 
+* So what is process mining? 
+* What can we do with it? 
+* Why do we care about it?
 
-Why do we care about it?
+
+## What does the current space look like
+
+Unsurprisedly there are both open source and commercial solutions available for assisting in the investigation and analysis of processes.
+
+From my 
+
+
+## What is process mining?
+
+
+## What can we do with it?
+
+understand complicated views
+visualize flow rather than just focusing on the static intersections
+
+## Why should we care

@@ -1,0 +1,17 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# (APPENDIX) Appendix {-} 
+
+# Defintions {#def}
+
+In this section we aim to compile useful defintions to ensure that we have similar language tools
+
+## Process Mining 
+
+
+
+## Process Mapping 

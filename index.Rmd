@@ -20,8 +20,16 @@ There are different tools available, but the one we will largely focus on exists
 
 ```{r eval=FALSE}
 install.packages("bupaR")
+install.packages("edeaR")
+install.packages("eventdataR")
+install.packages("processmapR")
+install.packages("processanimateR")
+install.packages("petrinetR")
+install.packages("processmonitR")
+install.packages("processcheckR")
 
 ```
+
 
 
 ```{r include=FALSE}

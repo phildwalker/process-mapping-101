@@ -1,7 +1,3 @@
-# Applications
+# Applications {#apps}
 
-Some _significant_ applications are demonstrated in this chapter.
-
-## Example one
-
-## Example two
+In this section we are going to try to cover some more detail around what tools are currently available focusing on the open source tools
