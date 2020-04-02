@@ -32,6 +32,7 @@ output:
         vk: no
         all: ['twitter', 'linkedin']
       info: yes
+      favicon: favicon.ico
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike

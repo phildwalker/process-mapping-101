@@ -1,10 +1,15 @@
 ---
 output: html_document
-editor_options: 
-  chunk_output_type: console
+bibliography: packages.bib  
 ---
+
+<!-- --- -->
+<!-- output: html_document -->
+<!-- editor_options:  -->
+<!--   chunk_output_type: console -->
+<!-- --- -->
 # (APPENDIX) Appendix {-} 
 
-`r if (knitr:::is_html_output()) '
-# References {-}
-'`
+<!-- `r if (knitr:::is_html_output()) ' -->
+# References {#refs}
+<!-- '` -->
