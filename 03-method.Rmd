@@ -1,6 +1,24 @@
 # Methods
 
+
 We describe our methods in this chapter.
 
 
 This could show the different tools that are available or even some examples
+
+## How to install bupaR
+
+The following code should be run initally to install the 
+
+```{r eval=FALSE}
+install.packages("bupaR")
+install.packages("edeaR")
+install.packages("eventdataR")
+install.packages("processmapR")
+install.packages("processanimateR")
+install.packages("petrinetR")
+install.packages("processmonitR")
+install.packages("processcheckR")
+
+```
+

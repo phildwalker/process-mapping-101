@@ -1,0 +1,8 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+# Foundational Elements {#foundations}
+
+In this sections we will look to cover the essential pieces necessary to learning process mining

@@ -3,7 +3,7 @@ output: html_document
 editor_options: 
   chunk_output_type: console
 ---
-# Literature
+# Literature {#lit}
 
 Here is a review of existing methods.
 
