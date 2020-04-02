@@ -9,9 +9,7 @@ output:
       toc:
         collapse: subsection
         scroll_highlight: yes
-        before: |
-          <li><a href="...">Process Mining 101</a></li>
-          <li><a href="...">A gentle introduction</a></li>
+        # before: null
         after: |
           <li><a href="https://github.com/rstudio/bookdown">
           Proudly published with bookdown</a></li>
