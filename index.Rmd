@@ -4,9 +4,36 @@ author: "Phil Walker"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: 
-  # bookdown::gitbook
-  bookdown::html_book:
-      theme:  united
+  bookdown::gitbook:
+    config:
+      toc:
+        collapse: subsection
+        scroll_highlight: yes
+        before: |
+          <li><a href="...">Process Mining 101</a></li>
+          <li><a href="...">A gentle introduction</a></li>
+        after: |
+          <li><a href="https://github.com/rstudio/bookdown">
+          Proudly published with bookdown</a></li>
+      toolbar:
+        position: fixed
+      edit : null
+      download: null
+      search: yes
+      fontsettings:
+        theme: white
+        family: sans
+        size: 2
+      sharing:
+        facebook: no
+        github: no
+        twitter: yes
+        linkedin: yes
+        weibo: no
+        instapaper: no
+        vk: no
+        all: ['twitter', 'linkedin']
+      info: yes
 documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
