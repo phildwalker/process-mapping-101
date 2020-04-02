@@ -1,3 +1,23 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
 # Final Words
 
 We have finished a nice book.
+
+
+```{r}
+library(tidyverse)
+
+iris %>% 
+  ggplot(aes(Sepal.Length, Sepal.Width, color= Species))+
+    geom_point()+
+    theme_bw()+
+    labs(title = "This is an example of a plot in the book",
+         caption= "Captions are good too")
+
+
+```
+

@@ -1,3 +1,6 @@
 # Methods
 
 We describe our methods in this chapter.
+
+
+This could show the different tools that are available or even some examples
