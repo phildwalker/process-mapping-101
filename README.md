@@ -1,3 +1,3 @@
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "[Get Started](https://bookdown.org/yihui/bookdown/get-started.html)" at https://bookdown.org/yihui/bookdown/ for how to compile this example into HTML. You may generate a copy of the book in `bookdown::pdf_book` format by calling `bookdown::render_book('index.Rmd', 'bookdown::pdf_book')`. More detailed instructions are available here https://bookdown.org/yihui/bookdown/build-the-book.html.
+This book aims to capture what I have been learning about process mining/ process mapping. The hope is that I can make it digestable to others and use this as a way of capturing what i've worked on before
 
-You can find the preview of this example at https://bookdown.org/yihui/bookdown-demo/.
+The book is going to be hosted on netlify and linked to this github repo. You can view it as it gets built out at: https://process-mapping-101.netlify.com/
