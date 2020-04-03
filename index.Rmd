@@ -1,5 +1,8 @@
 --- 
-title: "Process Mining 101"
+title: |
+    | Process Mining 101 
+    | a gentle introduction
+# title: "Process Mining 101"
 author: "Phil Walker"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -54,10 +57,11 @@ I am not a process mining expert or a researching, in fact I am still very new a
 
 
 ## What this book is
-
+a collection of things I am find
 
 
 ## What this book is not
+the final word of how to perform a process mapping analysis
 
 
 ## Contact
