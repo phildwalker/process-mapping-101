@@ -46,7 +46,7 @@ description: "This book aims to document what I've been learning about process m
 <!--     | Process Mining 101 -->
 <!--     | _a gentle introduction_ -->
 
-# Welcome
+# Welcome {-}
 
 I have been working to grow my knowledge and skills around process mining and in an effort to not only work to better capture what I am learn but also build out a place to help others: I am going to be documenting and building out examples in the subsequent pages of this book. My aim is that this can become a useful resource for not only useful me but also future team members as we work to make sense of the processes around us. 
 
@@ -57,20 +57,20 @@ I have been working to grow my knowledge and skills around process mining and in
     * Some of the other tools are mentioned in the [literature](#lit) section. 
 
 
-## Disclaimers
+## Disclaimers {-}
 
 I am not a process mining expert or a researching, in fact I am still very new as a user of process mining methodologies. I do find this fun and I am always looking to grow and learn new things so I expect this book to grow with my understanding.
 
 
-## What this book is
+## What this book is {-}
 a collection of things I am find
 
 
-## What this book is not
+## What this book is not {-}
 the final word of how to perform a process mapping analysis
 
 
-## Contact
+## Contact {-}
 
 Please feel free to reach out to me if you have any questions or have found any errors (grammatical or theoretical). I am planning on trying to keep this as up to date as possible and would love to hear from you. My contact information can be found at the top right of the document and I can be reached via twitter or linkedin. 
 
