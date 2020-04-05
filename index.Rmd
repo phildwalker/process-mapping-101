@@ -59,7 +59,9 @@ I have been working to grow my knowledge and skills around process mining and in
 
 ## Disclaimers {-}
 
-I am not a process mining expert or a researching, in fact I am still very new as a user of process mining methodologies. I do find this fun and I am always looking to grow and learn new things so I expect this book to grow with my understanding.
+I am not a process mining expert nor a researcher. In fact, I am still very new as a user of process mining methodologies. I do find this material to be useful and fun and on top of that I am always looking to grow and learn new things so I expect this book to grow with my understanding. 
+
+I cannot certify that the entirety of the content will be accurate 
 
 
 ## What this book is {-}
