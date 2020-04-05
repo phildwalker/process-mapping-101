@@ -49,6 +49,21 @@
 
 
 
+<script src="libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<script src="libs/processanimater-libs-1.0.3/animation_playback_control.js"></script>
+<script src="libs/processanimater-libs-1.0.3/animation_scales.js"></script>
+<script src="libs/processanimater-libs-1.0.3/animation_tokens.js"></script>
+<script src="libs/processanimater-libs-1.0.3/animation_renderer_graphviz.js"></script>
+<script src="libs/processanimater-libs-1.0.3/animation_renderer_leaflet.js"></script>
+<script src="libs/d3-5.7.0/d3-custom.min.js"></script>
+<script src="libs/fakesmil-0.3.0/smil.user.js"></script>
+<script src="libs/svg-pan-zoom-3.6.0/svg-pan-zoom.min.js"></script>
+<script src="libs/momentjs-0.2.22.1/moment.min.js"></script>
+<script src="libs/es6-promise-4.2.5/es6-promise.auto.min.js"></script>
+<script src="libs/hammerjs-2.0.8/hammer.min.js"></script>
+<script src="libs/processanimateR-binding-1.0.3/processanimateR.js"></script>
+<script src="libs/viz.js-2.1.2/viz.js"></script>
+<script src="libs/viz.js-2.1.2/full.render.js"></script>
 
 
 <style type="text/css">
@@ -139,6 +154,10 @@ Proudly published with bookdown</a></li>
 <div id="refs" class="section level1">
 <h1><span class="header-section-number">A</span> References</h1>
 <!--  -->
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># automatically create a bib database for R packages</span>
+knitr<span class="op">::</span><span class="kw">write_bib</span>(<span class="kw">c</span>(
+  <span class="kw">.packages</span>(), <span class="st">&#39;bookdown&#39;</span>, <span class="st">&#39;knitr&#39;</span>, <span class="st">&#39;rmarkdown&#39;</span>, <span class="st">&#39;bupaR&#39;</span>
+), <span class="st">&#39;packages.bib&#39;</span>)</code></pre></div>
 
 </div>
             </section>

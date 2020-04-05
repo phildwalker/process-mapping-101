@@ -13,3 +13,10 @@ bibliography: packages.bib
 <!-- `r if (knitr:::is_html_output()) ' -->
 # References {#refs}
 <!-- '` -->
+
+```{r include=TRUE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown', 'bupaR'
+), 'packages.bib')
+```

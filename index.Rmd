@@ -61,15 +61,18 @@ I have been working to grow my knowledge and skills around process mining and in
 
 I am not a process mining expert nor a researcher. In fact, I am still very new as a user of process mining methodologies. I do find this material to be useful and fun and on top of that I am always looking to grow and learn new things so I expect this book to grow with my understanding. 
 
-I cannot certify that the entirety of the content will be accurate 
+I cannot certify that the entirety of the content contained here will be accurate, but I will make every effort to keep this as updated as possible and will look to cite my sources as I use them. 
 
 
 ## What this book is {-}
-a collection of things I am find
+This book is an attempt to provide a useful synthesis of both the theoretical and practical usages of process mining in the R ecosystem.
 
+I will aim to 
 
 ## What this book is not {-}
-the final word of how to perform a process mapping analysis
+I will not be able to capture the entire field of process mining nor every use. 
+
+I also do not intend on providing more explanations around other R packages I will be using throughout the book. 
 
 
 ## Contact {-}
@@ -80,9 +83,7 @@ Best,
 
 -phil
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
+
+
+
+
