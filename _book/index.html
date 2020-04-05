@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title></title>
+  <title>Process Mining 101</title>
   <meta name="description" content="This book aims to document what I’ve been learning about process mining/ process mapping and then be a place to share with others" />
   <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="" />
+  <meta property="og:title" content="Process Mining 101" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="phildwalker/process-mapping-101" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="" />
+  <meta name="twitter:title" content="Process Mining 101" />
   
   <meta name="twitter:description" content="This book aims to document what I’ve been learning about process mining/ process mapping and then be a place to share with others" />
   
@@ -24,7 +24,6 @@
 <meta name="author" content="Phil Walker" />
 
 
-<meta name="date" content="2020-04-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -144,8 +143,7 @@ Proudly published with bookdown</a></li>
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"><div style="white-space: pre-line;">Process Mining 101
-<em>a gentle introduction</em></div></a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Process Mining 101</a>
           </h1>
         </div>
 
@@ -154,15 +152,23 @@ Proudly published with bookdown</a></li>
 
             <section class="normal" id="section-">
 <div id="header">
-<h1 class="title"><div style="white-space: pre-line;">Process Mining 101
-<em>a gentle introduction</em></div></h1>
+<h1 class="title">Process Mining 101</h1>
+<h2 class="subtitle"><em>a gentle introduction</em></h2>
 <p class="author"><em>Phil Walker</em></p>
-<p class="date"><em>2020-04-03</em></p>
+<p class="date"><em>Last updated: 2020-04-05</em></p>
 </div>
 <div id="welcome" class="section level1">
 <h1><span class="header-section-number">Chapter 1</span> Welcome</h1>
-<p>This book aims to document what I’ve been learning about process mining/ process mapping and then be a place to share with others</p>
-<p>There are different tools available, but the one we will largely focus on exists within the R ecosystem. It is called bupaR (Business Process Analysis in R) and the documentation site for that package and the rest of the ‘-verse’ can be found at [<a href="http://bupar.net/" class="uri">http://bupar.net/</a>]</p>
+<p>I have been working to grow my knowledge and skills around process mining and in an effort to not only work to better capture what I am learn but also build out a place to help others: I am going to be documenting and building out examples in the subsequent pages of this book. My aim is that this can become a useful resource for not only useful me but also future team members as we work to make sense of the processes around us.</p>
+<ul>
+<li>I will try to reduce the use of overly technical terminology without also providing application focused translations. I expect that this will probably end up helping my significantly because I don’t want this to be an activity in rote memorization.</li>
+<li>I want to better be able to interact with experts within the fields as questions arise, so I will work to capture specific terms. But I will also work on building out a glossary to consolidate those terms in a single location.</li>
+<li>I often find that I learn best when I have a concrete example that I can use to ground myself. I will work to make sure the data I use is readily available/recreateble (also will be good for me in better learning to create reprex).</li>
+<li>There are many different tools available when performing process mining analyses, but the one we will largely focus on one which exists within the R ecosystem. It is called bupaR (Business Process Analysis in R) and the documentation site for that package and the rest of the ‘-verse’ can be found at <a href="http://bupar.net/" class="uri">http://bupar.net/</a>
+<ul>
+<li>Some of the other tools are mentioned in the <a href="lit.html#lit">literature</a> section.</li>
+</ul></li>
+</ul>
 <div id="disclaimers" class="section level2">
 <h2><span class="header-section-number">1.1</span> Disclaimers</h2>
 <p>I am not a process mining expert or a researching, in fact I am still very new as a user of process mining methodologies. I do find this fun and I am always looking to grow and learn new things so I expect this book to grow with my understanding.</p>
@@ -177,8 +183,7 @@ Proudly published with bookdown</a></li>
 </div>
 <div id="contact" class="section level2">
 <h2><span class="header-section-number">1.4</span> Contact</h2>
-<p>Please feel free to reach out to me if you have any questions or have found and error. I am planning on trying to keep this as up to date as possible and would love to hear from you.</p>
-<p>My contact information can be found at the top right of the document and I can be reached via twitter, linkedin</p>
+<p>Please feel free to reach out to me if you have any questions or have found any errors (grammatical or theoretical). I am planning on trying to keep this as up to date as possible and would love to hear from you. My contact information can be found at the top right of the document and I can be reached via twitter or linkedin.</p>
 <p>Best,</p>
 <p>-phil</p>
 
@@ -206,14 +211,14 @@ Proudly published with bookdown</a></li>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
+"github": true,
 "facebook": false,
 "twitter": true,
 "linkedin": true,
 "weibo": false,
 "instapaper": false,
 "vk": false,
-"all": ["twitter", "linkedin"]
+"all": ["twitter", "linkedin", "github"]
 },
 "fontsettings": {
 "theme": "white",

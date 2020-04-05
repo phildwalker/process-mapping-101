@@ -1,10 +1,8 @@
 --- 
-title: |
-    | Process Mining 101 
-    | _a gentle introduction_
-# title: "Process Mining 101"
+title: "Process Mining 101"
+subtitle: "a gentle introduction"
 author: "Phil Walker"
-date: "`r Sys.Date()`"
+date: "Last updated: `r Sys.Date()`"
 site: bookdown::bookdown_site
 output: 
   bookdown::gitbook:
@@ -27,13 +25,13 @@ output:
         size: 2
       sharing:
         facebook: no
-        github: no
+        github: yes
         twitter: yes
         linkedin: yes
         weibo: no
         instapaper: no
         vk: no
-        all: ['twitter', 'linkedin']
+        all: ['twitter', 'linkedin', 'github']
       info: yes
 favicon: favicon.ico
 documentclass: book
@@ -44,11 +42,19 @@ github-repo: phildwalker/process-mapping-101
 description: "This book aims to document what I've been learning about process mining/ process mapping and then be a place to share with others"
 ---
 
+<!-- title: | -->
+<!--     | Process Mining 101 -->
+<!--     | _a gentle introduction_ -->
+
 # Welcome
 
-This book aims to document what I've been learning about process mining/ process mapping and then be a place to share with others
+I have been working to grow my knowledge and skills around process mining and in an effort to not only work to better capture what I am learn but also build out a place to help others: I am going to be documenting and building out examples in the subsequent pages of this book. My aim is that this can become a useful resource for not only useful me but also future team members as we work to make sense of the processes around us. 
 
-There are different tools available, but the one we will largely focus on exists within the R ecosystem. It is called bupaR (Business Process Analysis in R) and the documentation site for that package and the rest of the '-verse' can be found at [http://bupar.net/]
+* I will try to reduce the use of overly technical terminology without also providing application focused translations. I expect that this will probably end up helping my significantly because I don't want this to be an activity in rote memorization. 
+* I want to better be able to interact with experts within the fields as questions arise, so I will work to capture specific terms. But I will also work on building out a glossary to consolidate those terms in a single location. 
+* I often find that I learn best when I have a concrete example that I can use to ground myself. I will work to make sure the data I use is readily available/recreateble (also will be good for me in better learning to create reprex).
+* There are many different tools available when performing process mining analyses, but the one we will largely focus on one which exists within the R ecosystem. It is called bupaR (Business Process Analysis in R) and the documentation site for that package and the rest of the '-verse' can be found at http://bupar.net/
+    * Some of the other tools are mentioned in the [literature](#lit) section. 
 
 
 ## Disclaimers
@@ -66,9 +72,7 @@ the final word of how to perform a process mapping analysis
 
 ## Contact
 
-Please feel free to reach out to me if you have any questions or have found and error. I am planning on trying to keep this as up to date as possible and would love to hear from you.
-
-My contact information can be found at the top right of the document and I can be reached via twitter, linkedin
+Please feel free to reach out to me if you have any questions or have found any errors (grammatical or theoretical). I am planning on trying to keep this as up to date as possible and would love to hear from you. My contact information can be found at the top right of the document and I can be reached via twitter or linkedin. 
 
 Best,
 
