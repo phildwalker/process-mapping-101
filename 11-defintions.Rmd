@@ -1,0 +1,34 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+
+
+# Defintions {#def}
+
+In this section we aim to compile useful defintions to ensure that we have similar language tools
+
+## Useful terminology
+
+ 
+### describing a process
+
+deadlock: a path deadlocks if it reaches a non-final state without any outgoing transitions
+livelock: some transitions are still enabled but it is impossible to reach one of the final states
+concurancy
+desire line/ golden path
+
+activity: well defined step in a process (often an event in a event log)
+case: process instance
+trace: the combination of activities into cases (multiple traces make up the process flow)
+resource: person/device executing the activity
+timestamp: crucial element of event logs
+
+
+## Process Mining 
+
+
+
+## Process Mapping 

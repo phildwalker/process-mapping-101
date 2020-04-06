@@ -18,11 +18,45 @@ In this section I aim to cover the following items
 
 Unsurprisedly there are both open source and commercial solutions available for assisting in the investigation and analysis of processes.
 
-From my 
+Examples of use of process mining
 
+* analyzing treatment process in hospitals
+* improving customer services process in a multinational corporation
+* understanding browsing behavior of customers on a online booking site
+* analyzing failures of a baggage handling system
+
+
+### Process Sciences // Process Mining //  Process Models               
+
+Process mining research starting at TU/e (Eindhoven University of Technology) in 1999
+
+In general the field is tied to the growth in big data >> automated creation of event logs               
+
+Answering questions like:
+
+* what are the most frequent paths in my process? Do they change over time?
+*  what do the cases that take longer than 3 months have in common? where are the bottlenecks causing these delays?
+* which cases deviate from the reference process? do these deviations also cause delays?
+
+* Generally are either performance or conformance related questions
+    * performance: response times, service levels
+
+ 
 
 ## What is process mining?
 
+
+## What is an event log?
+
+what is "event data"
+contains a couple of key elements
+* activity: well defined step in a process (often an event in a event log)
+* case: process instance
+* trace: the combination of activities into cases (multiple traces make up the process flow)
+* resource: person/device executing the activity
+* timestamp: crucial element of event logs
+
+couple of useful but not necessary elements
 
 
 ## What can we do with it?
@@ -37,10 +71,10 @@ library(bupaR)
 
 summary(patients)
 
-animate_process(patients, mode = "relative", jitter = 10, legend = "color",
-  mapping = token_aes(color = token_scale("employee", 
-    scale = "ordinal", 
-    range = RColorBrewer::brewer.pal(7, "Paired"))))
+# animate_process(patients, mode = "relative", jitter = 10, legend = "color",
+#   mapping = token_aes(color = token_scale("employee", 
+#     scale = "ordinal", 
+#     range = RColorBrewer::brewer.pal(7, "Paired"))))
 
 ```
 
