@@ -67,7 +67,7 @@ I cannot certify that the entirety of the content contained here will be accurat
 ## What this book is {-}
 This book is an attempt to provide a useful synthesis of both the theoretical and practical usages of process mining in the R ecosystem.
 
-I will aim to 
+I will aim to use examples as much as possible to show how an idea could be applied (and to help myself practice as well).
 
 ## What this book is not {-}
 I will not be able to capture the entire field of process mining nor every use. 
