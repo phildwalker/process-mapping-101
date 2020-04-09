@@ -69,10 +69,11 @@ This book is an attempt to provide a useful synthesis of both the theoretical an
 
 I will aim to use examples as much as possible to show how an idea could be applied (and to help myself practice as well).
 
+
 ## What this book is not {-}
 I will not be able to capture the entire field of process mining nor every use. 
 
-I also do not intend on providing more explanations around other R packages I will be using throughout the book. 
+I also do not intend on providing more explanations around other R packages I will be using throughout the book. That likely includes a fair amount of data cleaning or aggregation that is done utilizing the packages within the tidyverse.
 
 
 ## Contact {-}
